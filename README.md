@@ -1,35 +1,22 @@
-# primebit
-what is primebit you may ask? well **primebit** is a logging npm package that give the users ability, to log anything in a fancy way!
+# primebit.js
 
-There's also 4 types of logging types you can use:
+![Version](https://img.shields.io/npm/v/primebit.js) ![Downloads](https://img.shields.io/npm/dw/primebit.js) ![Maintained](https://img.shields.io/badge/Maintained-yes-green)
 
-```
-error
-success
-warning
-log (default)
-```
+A simple and powerful logging library for Node.js applications. `awesome-logger` provides an easy-to-use interface for logging messages with different severity levels.
 
-using these, will change the logging type to the one you prefer above.
+## Table of Contents
 
-# Installation
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [API Documentation](#api-documentation)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-to install primebit You can do the following:
+## Installation
 
-```
-npm install primebit.js
-```
+You can install `awesome-logger` via npm:
 
-# Implentation
-
-After you've installed primebit, you can add your text, and implement the logging types like this:
-
-```js
-const prime = require("primebit.js")
-
-prime.log("a regular message (default log)")
-prime.error("a error message")
-prime.success("a success message")
-```
-
-After you've customized your prefered logs, your good to go!
+```bash
+npm install awesome-logger
