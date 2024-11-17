@@ -18,13 +18,21 @@ What is primebit? **primebit.js** is an npm package that gives users the ability
 ## Features
 
 - **✨ Types**: Supports four different log types:
+  
   - `log` (default)
   -  `error`
   -  `warning`
   -  `success`
-    
-- **⚙️ Customizable**: Options to customize the appearance of your logs.
-- **👀 Easy to Use**: Simple and intuitive API for quick implementation.
+
+## Miscellaneous
+
+- **⚙️ Options**: different options to customize your logs:
+  
+   - `filled` - adds a filled color for the log.
+     
+> [!NOTE]  
+> More options wil be added soon.
+
 
 ## Installation
 
@@ -32,3 +40,19 @@ To install primebit.js, you can do the following:
 
 ```bash
 npm install primebit.js
+```
+
+
+## Example
+
+```js
+const p = require("primebit.js")
+
+p.log("Hello World!", {
+  options: {
+    filled: true
+  }
+});
+```
+
+
