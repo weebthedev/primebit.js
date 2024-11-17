@@ -1,15 +1,12 @@
 {
     "name": "primebit.js",
-    "version": "1.2.3",
-    "description": "a package that can be used for customizable logging features.",
+    "version": "1.3.1",
+    "description": "A tool that makes logging look cool.",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
-    "bin": {
-      "primebit-install": "./primebit-install.js"
-    }
+    "license": "ISC"
   }
